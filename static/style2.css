@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+  
+   
+body {
+    background-color: #97ccf4;
+    
+
+
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+       font-family: 'Lato', sans-serif;
+       color: #060505;
+       
+       max-width: 500px;
+       margin: auto;
+       font-size: 28px;
+ 
+}
+

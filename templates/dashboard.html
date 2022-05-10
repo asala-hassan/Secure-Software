@@ -1,0 +1,11 @@
+<link rel="stylesheet" href=" {{ url_for('static', filename='style2.css')}}">
+<body>
+<h1>What would you like to do today?</h1>
+
+<p><br><a href="/details?account=100">Savings Account Details</a></br></p>
+<p><br><a href="/details?account=998">Checking Account Details</a></br></p>
+<p><br><a href="/transfer">Transfer</a></br</p>
+<p><br><a href="/logout">Logout</a></br></p>
+<input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+
+</body>
